@@ -17,13 +17,13 @@ body{
 .navbar-brand{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 3em;
+    font-size: 1.5vw;
 }
 
 .container.blog-entry{
     box-shadow: 0px 2px 4px rgba(114,96,190,0.5);
     padding: 25px;
-
+    margin: 25px auto;
 }
 
 li {
@@ -38,6 +38,7 @@ li {
     margin: 25px auto;
     text-align: center;
 }
+
 
 .btn.btn-primary{
     background-color: #7260BE;
@@ -73,13 +74,13 @@ body {
 .footer {
     text-align: center;
     margin-top: auto;
-    padding: 1.5em 0;
+    padding: 1.5em;
     background-color: #7260BE;
 }
 
 .footer p {
-	margin-top: 25px;
-	font-size: 1.2em;
+	margin-top: 5px;
+	font-size: 1em;
   color: #fff;
 }
 
@@ -102,4 +103,32 @@ body {
 #start-over{
     margin-top: 25px;
     margin-bottom: 25px;
+}
+
+@media (max-width: 991.98px) { 
+
+    #blog-entry-label{
+        display: none;
+    }
+
+    #blog-entry-label{
+        display: none;
+    }
+
+    .container.blog-entry div{
+        margin: 5px auto;
+    }
+
+    .footer p {
+        margin-top: 5px;
+        font-size: .8em;
+      color: #fff;
+    }
+
+    .navbar-brand{
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 5vw;
+    }
+
 }

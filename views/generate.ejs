@@ -12,21 +12,21 @@
 <div class="container blog-entry">
     <form action="/generate" method="post">
         <div class="form-row">
-            <div class="col-2"><label class="col-form-label"><strong>Blog's URL:</strong></label></div>
+            <div class="col-12 col-lg-2" id="blog-entry-label"><label class="col-form-label"><strong>Blog Link:</strong></label></div>
             
             
-            <div class="col-5">     
-                <input type="text" name="url" placeholder="Enter a URL" width="200px" class="form-control">
+            <div class="col-12 col-lg-4" id="blog-entry-url">     
+                <input type="text" name="url" placeholder="https://latishastyles.com" width="200px" class="form-control">
             </div>
-            <div class="col-3">  
+            <div class="col-12 col-lg-4" id="blog-entry-selection">  
             <select name="selection" id="selection" class="form-control">
                 <option value="getSentences">Generate from Sentences</option>
                 <option value="getParagraphs">Generate from Paragraphs</option>
             </select>
             </div>
-            <div class="col-2"> 
-            <button type="submit" class="btn btn-primary start-over form-control">Generate</button>
-            </div>
+            <div class="col-12 col-lg-2" id="blog-entry-button"> 
+                <button type="submit" class="btn btn-primary start-over form-control">Generate</button>
+                </div>
         </div>
     </form>  
 </div>
